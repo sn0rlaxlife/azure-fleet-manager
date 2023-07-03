@@ -1,4 +1,6 @@
 # Azure-Fleet-Manager
+[![tfsec](https://github.com/sn0rlaxlife/azure-fleet-manager/actions/workflows/tfsec.yml/badge.svg?branch=main)](https://github.com/sn0rlaxlife/azure-fleet-manager/actions/workflows/tfsec.yml)
+
 Azure Kubernetes Fleet Manager in Terraform deployed with Prometheus
 <br><b> This repository houses the uses of Azure Kubernetes Fleet Manager (Preview) that requires some pre-requisites</b></br>
 
