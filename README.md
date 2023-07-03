@@ -10,8 +10,9 @@ Azure Kubernetes Fleet Manager in Terraform deployed with Prometheus
 <pre class=no translate>
   <code>az extension add --name fleet</code>
 </pre>
+
+<p> Permissions needed are the following</p>
 <pre class=no translate>
-<br> Permissions needed are the following</br>
 <code>Microsoft.ContainerService/fleets/read
 Microsoft.ContainerService/fleets/write
 Microsoft.ContainerService/fleets/listCredentials/action
