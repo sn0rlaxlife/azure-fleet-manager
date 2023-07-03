@@ -7,10 +7,12 @@ Azure Kubernetes Fleet Manager in Terraform deployed with Prometheus
 
 <br><p>For the uses of this repository ensure you have registered for this preview via the following commands</p></br>
 <p>Ensure you have the Azure CLI to use the following command either locally/on Cloud Shell</p>
-<br><pre class=no translate>
-  <code>az extension add --name fleet</code></pre>
+<pre class=no translate>
+  <code>az extension add --name fleet</code>
+</pre>
+<pre class=no translate>
 <br> Permissions needed are the following</br>
-<p>Microsoft.ContainerService/fleets/read
+<code>Microsoft.ContainerService/fleets/read
 Microsoft.ContainerService/fleets/write
 Microsoft.ContainerService/fleets/listCredentials/action
 Microsoft.ContainerService/fleets/members/read
@@ -19,4 +21,5 @@ Microsoft.ContainerService/fleetMemberships/read
 Microsoft.ContainerService/fleetMemberships/write
 Microsoft.ContainerService/managedClusters/read
 Microsoft.ContainerService/managedClusters/write
-Microsoft.ContainerService/managedClusters/listClusterUserCredential/action</p>
+Microsoft.ContainerService/managedClusters/listClusterUserCredential/action</code></pre>
+
